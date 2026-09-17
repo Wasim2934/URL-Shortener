@@ -1,9 +1,5 @@
-import crypto from "crypto"
+// Generates a 6 character long unique short code for URLs which contains on a-z, A-Z, and 0-9.
 
-
-/**
- * Generates a 6 character long unique short code for URLs which contains on a-z, A-Z, and 0-9.
- */
 const generateCode = () => {
 
     const mainString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"

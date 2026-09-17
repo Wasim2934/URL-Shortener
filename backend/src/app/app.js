@@ -30,7 +30,4 @@ app.get("/:code", async function (req, res) {
     })
 })
 
-
-
-
 export default app
